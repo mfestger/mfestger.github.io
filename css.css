@@ -1,0 +1,289 @@
+#navbar {
+    border-bottom: 1px solid #ddd; /* adds a lot of dimension to the shadow styling */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 150%;
+}
+
+#intro-panel {
+    height: 630px;
+    /*border: solid black 2px;*/
+    /*background-color: #2aabd2;*/
+}
+
+#romero-quote1{
+    padding-left: 17%;
+    padding-top: 13%;
+    font-family: 'Rock Salt', cursive;
+    z-index:1;
+    position: absolute;
+}
+
+#romero-quote2{
+    padding-top: 47%;
+    padding-left: 55%;
+    font-family: 'Rock Salt', cursive;
+    z-index:1;
+    position: absolute;
+}
+
+.jiggleme {
+    transition-duration: 0.4s;
+}
+
+#embellish-text1 {
+    color: #CE5456;
+}
+
+#embellish-text2 {
+    color: #87A262;
+}
+
+
+/*(min-width: 768px) < ---when mobile and full screen only worked*/
+@media (min-width: 1200px) {
+    #linkedIn:hover {
+        color: #0077B5;
+        transform: rotateY(360deg);
+        transition-duration: 0.4s;
+
+    }
+
+    #facebook:hover {
+        color: #355089;
+        transform: rotateY(360deg);
+        transition-duration: 0.4s;
+
+    }
+    #github:hover {
+        color: black;
+        transform: rotateY(360deg);
+        transition-duration: 0.4s;
+
+    }
+
+    #twitter:hover {
+        color: #1DA1F2;
+        transform: rotateY(360deg);
+        transition-duration: 0.4s;
+
+    }
+
+    #logic-brain {
+        height: 470px;
+        width: 270px;
+        position: relative;
+        margin-left: -162%;
+        z-index:0;
+    }
+
+    #creative-brain {
+        height: 470px;
+        width: 270px;
+        margin-left: 160%;
+        position: relative;
+        z-index:0;
+    }
+
+    .service-item {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #about-me-header {
+        font-family: 'Satisfy', cursive;
+        color: white;
+        text-wrap: normal;
+        margin-left: -26%;
+        font-size: 300%;
+    }
+
+    #about-me {
+        height: 380px;
+        color: black;
+        background-color: #2aabd2;
+        background-image: url("http://i.imgur.com/OHrBWbX.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: right;
+        text-wrap: normal;
+    }
+
+    #welcome-message {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        z-index:1;
+    }
+
+    .about-me-text {
+        width:50%;
+        font-family: 'Raleway', sans-serif;
+        text-wrap: normal;
+        color: white;
+        /*font-size: 14px;*/
+        float: left;
+        margin-top: 3%;
+        margin-left: 10%;
+        font-size: 120%;
+
+    }
+
+
+    #portfolio-panel {
+        height: 500px;
+        width: 100%;
+        background-color: white;
+    }
+
+    #portfolio-header {
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .portfolio-element {
+        height: 100%;
+        width: 65%;
+        background-color: #777777;
+        margin: 2%;
+    }
+
+    .portfolio-container {
+        height: 32%;
+        width: 32%;
+        float: left;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+}
+/*(max-width: 450px) <- when mobile and full screen only worked*/
+/*---------------------------FOR MOBILE-----------------------------*/
+@media (max-width: 570px) {
+    #intro-panel {
+
+    }
+
+    #logic-brain {
+        height: 40%;
+        width: 40%;
+        position: relative;
+        margin-left: -150%;
+        z-index: 0;
+    }
+
+    #creative-brain {
+        height: 40%;
+        width: 40%;
+        margin-left: 159%;
+        position: relative;
+        z-index: 0;
+    }
+
+    #romero-quote1 {
+        visibility: hidden;
+    }
+
+    #romero-quote2 {
+        visibility: hidden;
+
+    }
+
+
+
+    #welcome-message {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        z-index: 1;
+    }
+
+    #about-me {
+        height: 410px;
+        color: black;
+        background-color: #2aabd2;
+        text-wrap: normal;
+    }
+
+
+
+    #portfolio-panel {
+        height: 500px;
+        width: 100%;
+        background-color: white;
+    }
+
+    #portfolio-header {
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 3%;
+    }
+
+    .portfolio-element {
+        height: 50%;
+        width: 95%;
+        background-color: #777777;
+
+    }
+
+    .portfolio-container {
+        height: 100%;
+        width: 100%;
+        float: left;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .about-me-text {
+        font-family: 'Raleway', sans-serif;
+        text-wrap: normal;
+        color: white;
+        /*font-size: 14px;*/
+        float: left;
+        margin: 3%;
+        font-size: 120%;
+
+    }
+}
+
+@media (min-width: 570px) and (max-width:1250px) {
+    #logic-brain {
+        height: 20%;
+        width: 20%;
+        position: relative;
+        margin-left: -120%;
+
+        z-index: 0;
+    }
+
+    #creative-brain {
+    height: 20%;
+    width: 20%;
+    margin-left: 160%;
+    position: relative;
+    z-index: 0;
+    }
+
+    #romero-quote1 {
+    font-family: 'Rock Salt', cursive;
+    z-index:1;
+    position: absolute;
+    font-size: 25px;
+    float: left;
+    margin-left: 85%;
+    }
+
+    #romero-quote2 {
+    font-family: 'Rock Salt', cursive;
+    z-index:1;
+    position: absolute;
+    font-size: 25px;
+    float: left;
+    margin-top: 503%;
+    margin-left: 350%;
+    }
+
+    #welcome-message {
+     text-align: center;
+     font-family: 'Open Sans', sans-serif;
+     z-index: 1;
+     margin-top: 25%;
+    }
+
+}
+
