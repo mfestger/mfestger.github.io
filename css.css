@@ -1,7 +1,23 @@
 #navbar {
-    border-bottom: 1px solid #ddd; /* adds a lot of dimension to the shadow styling */
+    border-bottom: 1px solid white;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 150%;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 250%;
+}
+
+.navbar-default {
+     background-color: white;
+     border-color: white;
+}
+
+.navbar-static-top {
+    background-color: white;
+    border-color: white;
 }
 
 #intro-panel {
